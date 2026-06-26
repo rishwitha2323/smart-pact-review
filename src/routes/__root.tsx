@@ -83,6 +83,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Upload SLAs and service agreements. AI extracts clauses, flags risks, and answers questions about your support contracts." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Clausely · AI Support Contract Review" },
+      { name: "twitter:description", content: "Upload SLAs and service agreements. AI extracts clauses, flags risks, and answers questions about your support contracts." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c4e53f3-00c6-4639-905f-ed8667292fe3/id-preview-791e7cb0--0c219b60-081f-4eb8-9951-783aeebb90ab.lovable.app-1782465346496.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2c4e53f3-00c6-4639-905f-ed8667292fe3/id-preview-791e7cb0--0c219b60-081f-4eb8-9951-783aeebb90ab.lovable.app-1782465346496.png" },
     ],
     links: [
       {
