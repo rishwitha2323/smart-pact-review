@@ -136,7 +136,7 @@ export const analyzeContract = createServerFn({ method: "POST" })
       const analysis = safeParseJson(raw);
       await supabase
         .from("contracts")
-        .update({ analysis, status: "ready" })
+        .update({ analysis: analysis as never, status: "ready" })
         .eq("id", row.id);
       void userId;
       return { ok: true };
