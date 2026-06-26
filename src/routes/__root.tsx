@@ -77,14 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Clausely · AI Support Contract Review" },
+      { name: "description", content: "Upload SLAs and service agreements. AI extracts clauses, flags risks, and answers questions about your support contracts." },
+      { property: "og:title", content: "Clausely · AI Support Contract Review" },
+      { property: "og:description", content: "Upload SLAs and service agreements. AI extracts clauses, flags risks, and answers questions about your support contracts." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
